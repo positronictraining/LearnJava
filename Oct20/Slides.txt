@@ -1,0 +1,168 @@
+Programming in Java
+(the right way)
+
+First, our goals.
+You should be able to program confidently in Java with proper syntax and object-oriented approach to problems that warrant it. You should also be able to use API references (such as the FRC one) to program using an API youâ€™ve never seen before.
+
+IDE? What's that?
+Whenâ€™s the next lunar eclipse?
+We used Netbeans last year. It worked, but...
+
+A bit about me
+I've taken Advanced Programming and AP Computer Science
+I'm currently taking Intro to Computer Systems at Swat
+I <3 open source software
+I take Java conventions very seriously
+
+Defining Simple Variables
+type name;
+type name = value;
+
+ex:
+int num = 5;
+
+Classes, Objects, and Instances
+Class name;
+Class name = new Class();
+Class name = new Class(args);
+
+ex:
+Talon left = new Talon(3);
+
+Classes, Objects, and Instances
+class DriveSystem {
+	Talon left = new Talon(2);
+	Talon right = new Talon(3);
+	public void test() {
+		System.out.println(â€œtestâ€);
+}
+}
+
+Java Conventions: Variable Names
+First letter is ALWAYS lowercase
+First letter of every word after the first word is capitalized
+Concise
+Representative
+Descriptive
+
+Java Conventions: Class Names
+First letter is ALWAYS capitalized
+First letter of each word is capitalized
+Concise
+Representative
+Descriptive
+
+Java Conventions: Code Blocks
+if (condition) {
+	// do something
+}
+
+Basic Variable Types
+byte - 8 bits								   float - 32 bits
+short - 16 bits						    double - 64 bits
+int - 32 bits
+long - 64 bits
+
+boolean - 1 bit
+char - 16 bits
+
+Basic Control Structures
+if
+else
+else if
+
+while
+for	
+break
+
+If Statements
+if (condition) {
+// do something
+}
+
+Else Statements
+if (condition) {
+	// do something
+} else {
+	// do something else
+}
+
+Else If Statements
+if (condition) {
+	// do something
+} else if (otherCondition) {
+	// do something else
+} else {
+	// do a third other thing
+}
+
+While Loops
+Useful for looping until something happens.
+
+while (condition) {
+	// do something
+}
+
+For Loops
+Shorthand for a specific type of while loop
+
+for (int i = 0; i<num; i++) {
+	// do something
+}
+
+Which is equivalent to...
+int i = 0;
+while (i < num) {
+	// do something
+	i++;
+}
+
+Break
+while (condition) {
+	// do something
+	if (otherCondition) {
+		break;
+}
+	// do something else
+}
+
+What replaces "condition"?
+
+Basic Comparators
+a < b
+a > b
+a == b
+a <= b
+a >= b
+a != b
+
+Boolean Comparators
+a || b
+a && b
+!a
+
+Assigning Values
+var = value;
+
+
+Other Operators
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus [what?])
+
+
+Assigning Values with Operators
+a = a * b;
+a *= b;
+
+(These mean the same thing!)
+
+Next Time
+Writing real code
+Modified curriculum from Strath Haven CS courses
+Having some fun
+
+
+(Have ideas/questions? Let me know!)
