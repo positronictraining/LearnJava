@@ -5,7 +5,7 @@ First, our goals.
 You should be able to program confidently in Java with proper syntax and object-oriented approach to problems that warrant it. You should also be able to use API references (such as the FRC one) to program using an API youâ€™ve never seen before.
 
 IDE? What's that?
-Whenâ€™s the next lunar eclipse?
+When's the next lunar eclipse?
 We used Netbeans last year. It worked, but...
 
 A bit about me
